@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="caja"><br><br><br>
+        <input type="text" id="xd" oninput="validarNumero(event)" class="caja-1"> <br>
+        <h2><p>Ingrese el Sueldo</p></h2><br><br><br>
+        <button onclick="calcular()">Calcular</button>
+        <h2></h2>
+    </div>
+
+    <div class="caja"><br><br>
+        <h2 id="aumento"></h2><br>
+        <h2 id="valor"></h2><br><br>
+        <button onclick="aceptar()">Aceptar</button>
+        <h2>Nuevo Sueldo:</h2>
+        <h2 id="sueldo"></h2>
+    </div>
+</body>
+</html>
